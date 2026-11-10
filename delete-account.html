@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your account — thesixsevenapp</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1c1b1f; --muted: #5f5c66; --accent: #68548e;
+    --rule: #e4e1e8; --card: #f7f5fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141218; --fg: #e6e1e9; --muted: #cac4cf; --accent: #cfbcff;
+      --rule: #2f2b36; --card: #1f1b24;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 2.5rem 1.25rem 5rem;
+  }
+  main { max-width: 44rem; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: .75rem; margin-bottom: 1.75rem; }
+  .mark {
+    width: 48px; height: 48px; border-radius: 14px; flex: none;
+    background: linear-gradient(135deg, #68548e, #a495bb);
+    color: #fff; font-weight: 900; font-size: 20px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .brand-name { font-weight: 800; font-size: 1.05rem; letter-spacing: -.01em; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .5rem; letter-spacing: -.02em; }
+  .lede { color: var(--muted); margin: 0 0 2rem; }
+  h2 {
+    font-size: 1.15rem; margin: 2.4rem 0 .6rem; letter-spacing: -.01em;
+    padding-top: 1.3rem; border-top: 1px solid var(--rule);
+  }
+  p { margin: .6rem 0; }
+  ol, ul { padding-left: 1.3rem; }
+  li { margin: .4rem 0; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--card); border: 1px solid var(--rule); border-radius: 12px;
+    padding: 1.1rem 1.25rem; margin: 1.25rem 0;
+  }
+  .wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-weight: 600; }
+  footer {
+    margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<div class="brand">
+  <div class="mark">67</div>
+  <div class="brand-name">thesixsevenapp</div>
+</div>
+
+<h1>Delete your account</h1>
+<p class="lede">
+  How to delete your thesixsevenapp account, and exactly what happens to
+  your data. thesixsevenapp is published by Sixty IT Services Szolgáltató
+  Korlátolt Felelősségű Társaság.
+</p>
+
+<h2>Delete it yourself, in the app</h2>
+<p>This takes effect immediately and needs no request or waiting period.</p>
+<ol>
+  <li>Open <strong>thesixsevenapp</strong> and sign in.</li>
+  <li>Tap your <strong>avatar</strong> in the top-left corner to open your
+    profile.</li>
+  <li>Tap the <strong>edit (pencil) icon</strong> in the top-right.</li>
+  <li>Scroll down and tap <strong>Delete account</strong>.</li>
+  <li>Confirm when prompted.</li>
+</ol>
+<p>
+  If you signed in with Apple, you'll be asked to authenticate with Apple
+  once more. This is so we can revoke the access token Apple issued to us,
+  which is part of removing your account properly.
+</p>
+
+<h2>If you can't sign in</h2>
+<div class="card">
+  <p>
+    If you've lost access to your account and can't delete it from inside
+    the app, email us and we'll delete it for you:
+  </p>
+  <p><a href="mailto:info@courtrent.com?subject=Account%20deletion%20request">info@courtrent.com</a></p>
+  <p>
+    Include the <strong>username</strong> or the <strong>email
+    address</strong> on the account. We may ask a question to confirm the
+    account is yours before deleting it. We aim to action requests within
+    <strong>30 days</strong>.
+  </p>
+</div>
+
+<h2>What is deleted</h2>
+<div class="wrap">
+<table>
+  <tr><th>Data</th><th>What happens</th></tr>
+  <tr>
+    <td>Your email address and sign-in credentials</td>
+    <td><strong>Deleted immediately.</strong> The authentication record is
+      destroyed, and you can no longer sign in.</td>
+  </tr>
+  <tr>
+    <td>Your username</td>
+    <td><strong>Removed immediately</strong> and released, so it becomes
+      available for someone else to use.</td>
+  </tr>
+  <tr>
+    <td>Your notification token</td>
+    <td><strong>Deleted immediately.</strong> No further push notifications
+      can be sent to your device.</td>
+  </tr>
+  <tr>
+    <td>Your avatar selection and privacy setting</td>
+    <td>No longer associated with any usable account.</td>
+  </tr>
+  <tr>
+    <td>Sign in with Apple authorisation</td>
+    <td><strong>Revoked</strong> with Apple, if you used that sign-in
+      method.</td>
+  </tr>
+</table>
+</div>
+
+<h2>What is kept, and for how long</h2>
+<p>
+  Records of the words exchanged between you and other people are
+  <strong>kept</strong>, along with the follow relationships connected to
+  them. These records no longer identify you: your username is gone, and
+  you appear to other users only as <strong>"Deleted User"</strong>.
+</p>
+<p>
+  We keep them because they are part of <em>other people's</em> history.
+  Deleting them would remove words those users sent and received, from
+  accounts that still exist.
+</p>
+<p>
+  <strong>Retention period:</strong> these anonymised records are retained
+  indefinitely for as long as the service operates. They contain no email
+  address, no username, and no contact details — only an internal
+  identifier that is no longer linked to any account you can access.
+</p>
+<p>
+  If you want these records removed as well, email
+  <a href="mailto:info@courtrent.com?subject=Full%20data%20erasure%20request">info@courtrent.com</a>
+  and say so explicitly. If you are in the EEA or the UK, you have a right
+  to erasure under the GDPR, and we will act on that request.
+</p>
+
+<h2>Deleting the app</h2>
+<p>
+  Removing thesixsevenapp from your device does <strong>not</strong> delete
+  your account. Use one of the methods above.
+</p>
+<p>
+  Deleting your account also does not refund your purchase. Refunds are
+  handled by Apple or Google, depending on where you bought the app.
+</p>
+
+<footer>
+  thesixsevenapp — Sixty IT Services Szolgáltató Korlátolt Felelősségű
+  Társaság<br>
+  <a href="./">Privacy Policy</a> &middot; <a href="./support.html">Support</a>
+</footer>
+
+</main>
+</body>
+</html>
